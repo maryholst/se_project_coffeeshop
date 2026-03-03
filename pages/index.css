@@ -55,6 +55,9 @@
   flex-direction: column;
 }
 
+.header__title-wrapper {
+}
+
 .header__title {
   max-width: 729px;
   margin-left: 80px;
@@ -74,6 +77,10 @@
   font-size: 60px;
   line-height: 72px;
   color: #3f96f3;
+}
+
+.header__title-line {
+  display: block;
 }
 
 .header__description {
@@ -104,20 +111,31 @@
   color: #6f6f6f;
   margin-left: 80px;
   margin-top: auto;
-}
-
-.header__info {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
   justify-content: space-between;
 }
 
+.header__footer-hours {
+  display: flex;
+  flex-direction: column;
+}
 .header__paragraph {
-  margin-right: 80px;
-  margin-bottom: 40px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  padding-bottom: 10px;
 }
 
+.header__footer-address {
+  display: flex;
+  align-items: flex-end;
+  padding-right: 40px;
+}
+
+.header__address {
+  display: flex;
+  justify-content: flex-end;
+}
 .recipes {
   background-color: #0a2750;
   background-image: url(/images/background_recipes.svg);
@@ -202,15 +220,6 @@
   margin-bottom: 80px;
 }
 
-.form__legend {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  margin-bottom: 8px;
-}
-
 .reservation__form form {
   max-width: 385px;
 }
@@ -223,12 +232,19 @@
   border-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .form__label {
-  width: 20px;
   height: 15px;
   color: #000;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
 }
 
 .form__input {
@@ -259,7 +275,6 @@
 }
 
 .form__button:hover {
-  color: #1878dc;
   background-color: #3f96f3;
 }
 
@@ -443,7 +458,7 @@
   padding-top: 50px;
 }
 
-.footer__social-title {
+.footer__social-heading {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -451,7 +466,10 @@
   line-height: 15px;
 }
 
-.footer__social_item {
+.footer__list-item {
+}
+
+.footer__social-link {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -460,10 +478,10 @@
   gap: 5px;
 }
 
-.footer__icon_1 {
+.footer__social-link:hover {
+  opacity: 0.7;
 }
-
-.footer__icon_2 {
+.footer__social-icon {
 }
 
 .footer__copyright {

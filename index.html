@@ -19,12 +19,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <div class="page">
@@ -43,21 +37,21 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent">Specialty Coffee</span><br />in the
-          Triple Peaks Library
+          <span class="header__span-accent">Specialty Coffee</span>
+          <span class="header__title-line">in the Triple Peaks Library</span>
         </h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
           the cozy vibes to help you get creative.
         </p>
         <div class="header__footer">
-          <div class="header__info">
-            <p class="header__paragraph">
-              Hours:<br />
-              Monday – Friday (10:00 – 19:00)<br />
-              Saturday – Sunday (11:00 – 18:00)
-            </p>
-            <p class="header__paragraph">
+          <div class="header__footer-hours">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          </div>
+          <div class="header__footer-address">
+            <p class="header__address">
               200 Success Avenue, The Town of Triple Peaks
             </p>
           </div>
@@ -126,8 +120,7 @@
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
-              <legend class="form__legend">Name *</legend>
-              <label class="form__label" for="name"></label>
+              <label class="form__label" for="name">Name *</label>
               <input
                 class="form__input"
                 id="name"
@@ -137,8 +130,9 @@
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <legend class="form__legend">Number of guests *</legend>
-              <label class="form__number" for="guests"></label>
+              <label class="form__number" for="guests"
+                >Number of guests *</label
+              >
               <input
                 class="form__input"
                 id="guests"
@@ -150,8 +144,7 @@
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <legend class="form__legend">Date & time *</legend>
-              <label class="form__label" for="date"></label>
+              <label class="form__label" for="date">Date & time *</label>
               <input
                 class="form__input"
                 id="date"
@@ -160,8 +153,7 @@
               />
             </fieldset>
             <fieldset class="form__fieldset">
-              <legend class="form__legend">Your email *</legend>
-              <label class="form__label" for="email"></label>
+              <label class="form__label" for="email">Your email *</label>
               <input
                 class="form__input"
                 id="email"
@@ -191,63 +183,77 @@
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
-              <ul class="menu__cards">
-                <li class="card">
-                  <h3 class="card__title">Filter</h3>
-                  <ul class="card__list">
+          <ul class="menu__cards">
+            <li class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list">
                 <li class="card__list-item">
-                  Regular (12 oz)<span class="card__list-divider" style="flex-grow: 1; border-bottom: 1px solid black;"></span>$1
+                  Regular (12 oz)<span class="card__list-divider"></span>$1
                 </li>
                 <li class="card__list-item">
-                  Large (16 oz)<span class="card__list-divider" style="flex-grow: 1; border-bottom: 1px solid black;"></span>$1.25
+                  Large (16 oz)<span class="card__list-divider"></span>$1.25
                 </li>
                 <li class="card__list-item">
-                  XL (20 oz)<span class="card__list-divider"style="flex-grow: 1; border-bottom: 1px solid black;"></span>$1.5
+                  XL (20 oz)<span class="card__list-divider"></span>$1.5
                 </li>
                 <li class="card__list-item">
-                  Party-size (24 oz, decaf)<span class="card__list-divider"style="flex-grow: 1; border-bottom: 1px solid black;"
-                    ></span>$1.75
+                  Party-size (24 oz, decaf)<span
+                    class="card__list-divider"
+                  ></span
+                  >$1.75
                 </li>
                 <li class="card__list-item">
-                  Iced Coffee (16 oz)<span class="card__list-divider"style="flex-grow: 1; border-bottom: 1px solid black;"></span>$1.25
+                  Iced Coffee (16 oz)<span class="card__list-divider"></span
+                  >$1.25
                 </li>
               </ul>
-                </li>
+            </li>
             <li class="card">
               <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
                 <li class="card__list-item">
-                  Macchiato <span class="card__list-divider"style="flex-grow: 1; border-bottom: 1px solid black;"></span>$2.25
+                  Macchiato
+                  <span class="card__list-divider"></span>$2.25
                 </li>
                 <li class="card__list-item">
-                  Cortado<span class="card__list-divider"style="flex-grow: 1; border-bottom: 1px solid black;"></span>$2.5
+                  Cortado<span class="card__list-divider"></span>$2.5
                 </li>
                 <li class="card__list-item">
-                  Mocha<span class="card__list-divider"style="flex-grow: 1; border-bottom: 1px solid black;"></span>$3
+                  Mocha<span class="card__list-divider"></span>$3
                 </li>
                 <li class="card__list-item">
-                  Sunrise in the Bay Area (decaf)<span class="card__list-divider"style="flex-grow: 1; border-bottom: 1px solid black;"
-                    ></span>$10
+                  Sunrise in the Bay Area (decaf)<span
+                    class="card__list-divider"
+                  ></span
+                  >$10
                 </li>
               </ul>
             </li>
-            <ul class="card">
+            <li class="card">
               <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
-                <li class="card__list-item">Almond Croissant<span class="card__list-divider" style="flex-grow: 1; border-bottom: 1px solid black;"></span> $2
+                <li class="card__list-item">
+                  Almond Croissant<span class="card__list-divider"></span>
+                  $2
                 </li>
-                <li class="card__list-item">Banana Bread<span class="card__list-divider" style="flex-grow: 1; border-bottom: 1px solid black;"></span>$1.75
+                <li class="card__list-item">
+                  Banana Bread<span class="card__list-divider"></span>$1.75
                 </li>
-                <li class="card__list-item">Key Lime Pie<span class="card__list-divider" style="flex-grow: 1; border-bottom: 1px solid black;"></span>$3
+                <li class="card__list-item">
+                  Key Lime Pie<span class="card__list-divider"></span>$3
                 </li>
-                <li class="card__list-item">Blue Velvet Cake<span class="card__list-divider" style="flex-grow: 1; border-bottom: 1px solid black;"></span>$3.75
+                <li class="card__list-item">
+                  Blue Velvet Cake<span class="card__list-divider"></span>$3.75
                 </li>
-                <li class="card__list-item">Web Cookie<span class="card__list-divider" style="flex-grow: 1; border-bottom: 1px solid black;"></span>$2
+                <li class="card__list-item">
+                  Web Cookie<span class="card__list-divider"></span>$2
                 </li>
-                <li class="card__list-item">Fresh Bug’uette<span class="card__list-divider" style="flex-grow: 1; border-bottom: 1px solid black;"></span>$0.25
+                <li class="card__list-item">
+                  Fresh Bug’uette<span class="card__list-divider"></span>$0.25
                 </li>
               </ul>
-            </ul>
+            </li>
+          </ul>
         </section>
         <section class="about">
           <h2 class="about__title">About the coffee shop</h2>
@@ -277,20 +283,24 @@
             alt="white logo"
           />
           <ul class="footer__social">
-            <li class="footer__social-title">Social Media</li>
-            <li class="footer__social_item">
-              <img
-                class="footer__icon_1"
-                src="./images/facebook_white.svg"
-                alt="facebook logo"
-              />Facebook
+            <li class="footer__social-heading">Social Media</li>
+            <li class="footer__list_item">
+              <a href="#" class="footer__social-link">
+                <img
+                  class="footer__social-icon"
+                  src="./images/facebook_white.svg"
+                  alt="facebook logo"
+                />Facebook
+              </a>
             </li>
-            <li class="footer__social_item">
-              <img
-                class="footer__icon_2"
-                src="./images/instagram_white.svg"
-                alt="instagram logo"
-              />Instagram
+            <li class="footer__list_item">
+              <a href="#" class="footer__social-link">
+                <img
+                  class="footer__social-icon"
+                  src="./images/instagram_white.svg"
+                  alt="instagram logo"
+                />Instagram
+              </a>
             </li>
           </ul>
         </div>
