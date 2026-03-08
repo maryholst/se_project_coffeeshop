@@ -5,9 +5,6 @@
   flex-direction: column;
 }
 
-.header__title-wrapper {
-}
-
 .header__title {
   max-width: 729px;
   margin-left: 80px;
@@ -23,7 +20,7 @@
 .header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 60px;
   line-height: 72px;
   color: #3f96f3;
