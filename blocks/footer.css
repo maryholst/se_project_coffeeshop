@@ -35,6 +35,12 @@
   line-height: 15px;
 }
 
+<<<<<<< HEAD
+=======
+.footer__list-item {
+}
+
+>>>>>>> 0d3c4d1789f5ea62dbfc25ddd80bc3060019a882
 .footer__social-link {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -44,7 +50,11 @@
   gap: 5px;
   text-decoration: none;
   color: #fff;
+<<<<<<< HEAD
   transition: color 0.3s ease;
+=======
+  transition: color 0.5s ease;
+>>>>>>> 0d3c4d1789f5ea62dbfc25ddd80bc3060019a882
 }
 
 .footer__social-link:hover {
@@ -52,6 +62,12 @@
   color: #1878dc;
 }
 
+<<<<<<< HEAD
+=======
+.footer__social-icon {
+}
+
+>>>>>>> 0d3c4d1789f5ea62dbfc25ddd80bc3060019a882
 .footer__copyright {
   color: #fff;
   padding-bottom: 50px;

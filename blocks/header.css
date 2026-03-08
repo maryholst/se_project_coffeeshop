@@ -5,6 +5,12 @@
   flex-direction: column;
 }
 
+<<<<<<< HEAD
+=======
+.header__title-wrapper {
+}
+
+>>>>>>> 0d3c4d1789f5ea62dbfc25ddd80bc3060019a882
 .header__title {
   max-width: 729px;
   margin-left: 80px;
@@ -20,7 +26,11 @@
 .header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
+<<<<<<< HEAD
   font-weight: 400;
+=======
+  font-weight: 500;
+>>>>>>> 0d3c4d1789f5ea62dbfc25ddd80bc3060019a882
   font-size: 60px;
   line-height: 72px;
   color: #3f96f3;
