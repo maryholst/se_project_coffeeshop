@@ -16,6 +16,7 @@
   padding-top: 100px;
   margin-left: 80px;
   max-width: 580px;
+  margin-top: 0;
 }
 
 .recipes__subtitle {
@@ -43,6 +44,7 @@
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: none;
 }
 
 .recipes__video-caption {
@@ -55,4 +57,5 @@
   padding-top: 24px;
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }

@@ -17,8 +17,9 @@
   line-height: 52px;
   padding-top: 100px;
   margin-bottom: 80px;
+  margin-top: 0;
 }
 
-.reservation__form form {
+.reservation__form {
   max-width: 385px;
 }
