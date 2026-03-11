@@ -18,6 +18,12 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 19px;
+  gap: 20px;
+}
+
+.about__paragraph {
+  margin: 0;
 }
 
 .about__circle {
@@ -56,4 +62,5 @@
   font-weight: 500;
   font-size: 40px;
   line-height: 52px;
+  margin: 0;
 }
